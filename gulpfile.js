@@ -94,11 +94,16 @@ gulp.task('default', function(callback) {
     )
 });
 
+gulp.task('css', function() {
+    return gulp.src(['app/css/styles.css'])
+        .pipe(gulp.dest('dist/css'))
+});
+
 gulp.task('build', function(callback) {
     runSequence(
         'clean:dist',
         'sass',
-        ['useref', 'images', 'fonts'],
+        ['css', 'useref', 'images', 'fonts'],
         callback
     )
 });
