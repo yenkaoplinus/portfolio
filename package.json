@@ -1,0 +1,37 @@
+{
+  "name": "portfolio-yenka",
+  "version": "1.0.0",
+  "description": "Yenka's portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://shaunjanssens@github.com/yenkaoplinus/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "html",
+    "scss",
+    "gulp"
+  ],
+  "author": "Yenka Oplinus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yenkaoplinus/portfolio/issues"
+  },
+  "homepage": "https://github.com/yenkaoplinus/portfolio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.1.2",
+    "run-sequence": "^1.2.2"
+  }
+}
