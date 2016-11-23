@@ -2,18 +2,18 @@ $portfolio-height-unit: 375px;
 $portfolio-height-margin: 30px;
 
 .frontpage {
-    .portfolio {
+    .portfolio, {
         .portfolio-item {
             background: #eee;
             width: 100%;
         }
 
         .portfolio-item-8-4 {
-            height: 375px
+            height: $portfolio-height-unit
         }
 
         .portfolio-item-4-4 {
-            height: 375px
+            height: $portfolio-height-unit
         }
 
         .portfolio-item-4-8 {
@@ -52,6 +52,29 @@ $portfolio-height-margin: 30px;
         .portfolio-item-6 {
             background: #EE4345;
         }
+
+        .portfolio-item-7 {
+            background: #EE4345;
+            margin-bottom: $portfolio-height-margin;
+        }
+
+        .portfolio-item-8 {
+            background: #EE4345;
+        }
+
+        .portfolio-item-9 {
+            background: #EE4345;
+        }
+
+        .portfolio-item-10 {
+            background: #EE4345;
+        }
+
+        .portfolio-item-11 {
+            background: #EE4345;
+        }
+
+
 
         @include breakpoint(sm) {
             .portfolio-item-8-4,

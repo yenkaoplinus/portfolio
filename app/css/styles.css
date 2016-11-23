@@ -3128,6 +3128,10 @@ nav.mainnav {
 section {
   margin-bottom: 100px; }
 
+img {
+  width: 100%;
+  height: auto; }
+
 /**
  * Import frontpage elements
  */
@@ -3188,6 +3192,22 @@ section {
 .frontpage .portfolio .portfolio-item-6 {
   background: #EE4345; }
 
+.frontpage .portfolio .portfolio-item-7 {
+  background: #EE4345;
+  margin-bottom: 30px; }
+
+.frontpage .portfolio .portfolio-item-8 {
+  background: #EE4345; }
+
+.frontpage .portfolio .portfolio-item-9 {
+  background: #EE4345; }
+
+.frontpage .portfolio .portfolio-item-10 {
+  background: #EE4345; }
+
+.frontpage .portfolio .portfolio-item-11 {
+  background: #EE4345; }
+
 @media (max-width: 768px) {
   .frontpage .portfolio .portfolio-item-8-4,
   .frontpage .portfolio .portfolio-item-4-4,
@@ -3195,4 +3215,52 @@ section {
     height: 375px;
     margin-bottom: 30px; }
   .frontpage .portfolio .row {
+    margin-bottom: 0; } }
+
+.frontpage .fotografie .fotografie-item {
+  background: #eee;
+  width: 100%; }
+
+.frontpage .fotografie .fotografie-item-8-4 {
+  height: 375px; }
+
+.frontpage .fotografie .fotografie-item-4-4 {
+  height: 375px; }
+
+.frontpage .fotografie .fotografie-item-4-8 {
+  height: 780px; }
+
+.frontpage .fotografie .row {
+  margin-bottom: 30px; }
+  .frontpage .fotografie .row .row {
+    margin-bottom: 0; }
+
+.frontpage .fotografie .fotografie-item-1 {
+  margin-bottom: 30px;
+  background: #83C82E; }
+
+.frontpage .fotografie .fotografie-item-2 {
+  background: #EE4345;
+  margin-bottom: 30px; }
+
+.frontpage .fotografie .fotografie-item-3 {
+  background: #4463E8; }
+
+.frontpage .fotografie .fotografie-item-4 {
+  background: #1EB786;
+  margin-bottom: 30px; }
+
+.frontpage .fotografie .fotografie-item-5 {
+  background: #F9B12B; }
+
+.frontpage .fotografie .fotografie-item-6 {
+  background: #EE4345; }
+
+@media (max-width: 768px) {
+  .frontpage .fotografie .fotografie-item-8-4,
+  .frontpage .fotografie .fotografie-item-4-4,
+  .frontpage .fotografie .fotografie-item-4-8 {
+    height: 375px;
+    margin-bottom: 30px; }
+  .frontpage .fotografie .row {
     margin-bottom: 0; } }
