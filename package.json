@@ -29,6 +29,7 @@
     "gulp-cache": "^0.4.5",
     "gulp-gh-pages": "^0.5.4",
     "gulp-imagemin": "^3.1.1",
+    "gulp-plumber": "^1.1.0",
     "gulp-sass": "^2.3.2",
     "gulp-uglify": "^2.0.0",
     "gulp-useref": "^3.1.2",
