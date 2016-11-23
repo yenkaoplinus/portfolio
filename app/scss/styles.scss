@@ -36,6 +36,12 @@
 @import "header";
 
 /**
+ * Main style
+ */
+@import "main";
+
+/**
  * Import frontpage elements
  */
+@import "frontpage/about";
 @import "frontpage/portfolio";

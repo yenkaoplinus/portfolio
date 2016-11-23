@@ -3090,7 +3090,7 @@ nav.mainnav {
     top: 0;
     z-index: 9999;
     width: 100vw;
-    background: rgba(255, 255, 255, 0.4); }
+    background: rgba(255, 255, 255, 0.95); }
   nav.mainnav .logo {
     width: 60px;
     height: 60px;
@@ -3123,50 +3123,76 @@ nav.mainnav {
   margin-top: 140px; }
 
 /**
+ * Main style
+ */
+section {
+  margin-bottom: 100px; }
+
+/**
  * Import frontpage elements
  */
-.portfolio .portfolio-item {
+.frontpage .about figure {
+  position: relative;
+  margin-bottom: 80px; }
+  .frontpage .about figure h2 {
+    color: #f1592a;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    bottom: -60px;
+    right: 50px; }
+
+.frontpage .about .item {
+  margin-bottom: 20px; }
+  .frontpage .about .item .key {
+    color: #f1592a;
+    text-transform: uppercase;
+    font-weight: bold; }
+
+.frontpage .portfolio .portfolio-item {
   background: #eee;
   width: 100%; }
 
-.portfolio .portfolio-item-8-4 {
+.frontpage .portfolio .portfolio-item-8-4 {
   height: 375px; }
 
-.portfolio .portfolio-item-4-4 {
+.frontpage .portfolio .portfolio-item-4-4 {
   height: 375px; }
 
-.portfolio .portfolio-item-4-8 {
+.frontpage .portfolio .portfolio-item-4-8 {
   height: 780px; }
 
-.portfolio .row {
+.frontpage .portfolio .row {
   margin-bottom: 30px; }
-  .portfolio .row .row {
+  .frontpage .portfolio .row .row {
     margin-bottom: 0; }
 
-.portfolio .portfolio-item-1 {
+.frontpage .portfolio .portfolio-item-1 {
   margin-bottom: 30px;
   background: #83C82E; }
 
-.portfolio .portfolio-item-2 {
+.frontpage .portfolio .portfolio-item-2 {
   background: #EE4345; }
 
-.portfolio .portfolio-item-3 {
+.frontpage .portfolio .portfolio-item-3 {
   background: #4463E8; }
 
-.portfolio .portfolio-item-4 {
+.frontpage .portfolio .portfolio-item-4 {
   background: #1EB786; }
 
-.portfolio .portfolio-item-5 {
+.frontpage .portfolio .portfolio-item-5 {
   background: #F9B12B; }
 
-.portfolio .portfolio-item-6 {
+.frontpage .portfolio .portfolio-item-6 {
   background: #EE4345; }
 
 @media (max-width: 768px) {
-  .portfolio .portfolio-item-8-4,
-  .portfolio .portfolio-item-4-4,
-  .portfolio .portfolio-item-4-8 {
+  .frontpage .portfolio .portfolio-item-8-4,
+  .frontpage .portfolio .portfolio-item-4-4,
+  .frontpage .portfolio .portfolio-item-4-8 {
     height: 375px;
     margin-bottom: 30px; }
-  .portfolio .row {
+  .frontpage .portfolio .row {
     margin-bottom: 0; } }

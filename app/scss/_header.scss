@@ -10,7 +10,7 @@ header {
     background: url("../images/logo.svg") no-repeat;
     background-size: 300px 300px;
 
-    text-indent: -9999px;
+    text-indent: -9999px; // hide text from browser
 
     position: absolute;
     top: 50vh;
@@ -31,7 +31,7 @@ nav.mainnav {
     top: 0;
     z-index: 9999;
     width: 100vw;
-    background: rgba($color-white, .4);
+    background: rgba($color-white, .95);
   }
 
   .logo {

@@ -1,67 +1,69 @@
 $portfolio-height-unit: 375px;
 $portfolio-height-margin: 30px;
 
-.portfolio {
-  .portfolio-item {
-    background: #eee;
-    width: 100%;
-  }
+.frontpage {
+    .portfolio {
+        .portfolio-item {
+            background: #eee;
+            width: 100%;
+        }
 
-  .portfolio-item-8-4 {
-    height: 375px
-  }
+        .portfolio-item-8-4 {
+            height: 375px
+        }
 
-  .portfolio-item-4-4 {
-    height: 375px
-  }
+        .portfolio-item-4-4 {
+            height: 375px
+        }
 
-  .portfolio-item-4-8 {
-    height: ($portfolio-height-unit * 2) + $portfolio-height-margin
-  }
+        .portfolio-item-4-8 {
+            height: ($portfolio-height-unit * 2) + $portfolio-height-margin
+        }
 
-  .row {
-    margin-bottom: 30px;
+        .row {
+            margin-bottom: 30px;
 
-    .row {
-      margin-bottom: 0;
+            .row {
+                margin-bottom: 0;
+            }
+        }
+
+        .portfolio-item-1 {
+            margin-bottom: 30px;
+            background: #83C82E;
+        }
+
+        .portfolio-item-2 {
+            background: #EE4345;
+        }
+
+        .portfolio-item-3 {
+            background: #4463E8;
+        }
+
+        .portfolio-item-4 {
+            background: #1EB786;
+        }
+
+        .portfolio-item-5 {
+            background: #F9B12B;
+        }
+
+        .portfolio-item-6 {
+            background: #EE4345;
+        }
+
+        @include breakpoint(sm) {
+            .portfolio-item-8-4,
+            .portfolio-item-4-4,
+            .portfolio-item-4-8 {
+                height: $portfolio-height-unit;
+                margin-bottom: $portfolio-height-margin;
+            }
+
+            .row {
+                margin-bottom: 0;
+            }
+        }
     }
-  }
-
-  .portfolio-item-1 {
-    margin-bottom: 30px;
-    background: #83C82E;
-  }
-
-  .portfolio-item-2 {
-    background: #EE4345;
-  }
-
-  .portfolio-item-3 {
-    background: #4463E8;
-  }
-
-  .portfolio-item-4 {
-    background: #1EB786;
-  }
-
-  .portfolio-item-5 {
-    background: #F9B12B;
-  }
-
-  .portfolio-item-6 {
-    background: #EE4345;
-  }
-
-  @include breakpoint(sm) {
-    .portfolio-item-8-4,
-    .portfolio-item-4-4,
-    .portfolio-item-4-8 {
-      height: $portfolio-height-unit;
-      margin-bottom: $portfolio-height-margin;
-    }
-
-    .row {
-      margin-bottom: 0;
-    }
-  }
 }
