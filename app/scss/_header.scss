@@ -77,6 +77,12 @@ nav.mainnav {
       }
     }
   }
+
+  @include breakpoint(sm) {
+    ul {
+      display: none;
+    }
+  }
 }
 
 .margin-menu {

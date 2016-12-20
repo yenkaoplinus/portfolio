@@ -3120,6 +3120,9 @@ nav.mainnav {
       nav.mainnav ul li:last-child a {
         padding-right: 0;
         border-right: none; }
+  @media (max-width: 768px) {
+    nav.mainnav ul {
+      display: none; } }
 
 .margin-menu {
   margin-top: 140px; }
@@ -3182,6 +3185,7 @@ img {
     margin-bottom: 0; }
 
 .frontpage .portfolio .portfolio-hover {
+  display: block;
   opacity: 0;
   background: rgba(255, 255, 255, 0.7);
   width: 100%;
@@ -3189,7 +3193,9 @@ img {
   position: relative;
   text-align: center;
   transition: all .2s;
-  z-index: 2; }
+  z-index: 2;
+  color: #3c3c3b;
+  text-decoration: none; }
   .frontpage .portfolio .portfolio-hover h3 {
     line-height: 375px;
     margin: 0;
