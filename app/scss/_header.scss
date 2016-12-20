@@ -63,6 +63,8 @@ nav.mainnav {
         text-transform: uppercase;
         border-right: 3px solid $color-dark;
         padding: 0 20px;
+        font-size: 14px;
+        text-decoration: none;
       }
 
       &.current a {

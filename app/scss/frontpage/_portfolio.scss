@@ -6,6 +6,11 @@ $portfolio-height-margin: 30px;
         .portfolio-item {
             background: $color-primary;
             width: 100%;
+            position: relative;
+
+            &:hover .portfolio-hover {
+              opacity: 1;
+            }
         }
 
         .portfolio-item-8-4 {
@@ -28,11 +33,55 @@ $portfolio-height-margin: 30px;
             }
         }
 
+        // Hover effect
+        .portfolio-hover {
+          opacity: 0;
+          background: rgba($color-white, .7);
+          width: 100%;
+          height: 100%;
+          position: relative;
+
+          text-align: center;
+
+          transition: all .2s;
+
+          z-index: 2;
+
+          h3 {
+            line-height: $portfolio-height-unit;
+            margin: 0;
+
+            font-size: 16px;
+            font-weight: 300;
+            text-transform: uppercase;
+
+            span {
+              font-weight: bold;
+              border-right: 2px solid $color-dark;
+
+              padding-right: 10px;
+              margin-right: 10px;
+            }
+          }
+
+        }
+
+        // Background image
+        .portfolio-background {
+          background-position: center;
+          background-size: cover;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+        }
+
         // Stijlen per portfolio item
         .portfolio-item-1 {
 
         }
-        @include breakpoint(sm) {
+
+        @include breakpoint(md) {
             .portfolio-item-8-4,
             .portfolio-item-4-4,
             .portfolio-item-6-4 {
