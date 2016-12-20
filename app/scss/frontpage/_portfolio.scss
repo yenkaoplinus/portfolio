@@ -4,7 +4,7 @@ $portfolio-height-margin: 30px;
 .frontpage {
     .portfolio, {
         .portfolio-item {
-            background: #eee;
+            background: $color-primary;
             width: 100%;
         }
 
@@ -16,8 +16,8 @@ $portfolio-height-margin: 30px;
             height: $portfolio-height-unit
         }
 
-        .portfolio-item-4-8 {
-            height: ($portfolio-height-unit * 2) + $portfolio-height-margin
+        .portfolio-item-6-4 {
+            height: $portfolio-height-unit
         }
 
         .row {
@@ -28,58 +28,14 @@ $portfolio-height-margin: 30px;
             }
         }
 
+        // Stijlen per portfolio item
         .portfolio-item-1 {
-            margin-bottom: 30px;
-            background: #83C82E;
+
         }
-
-        .portfolio-item-2 {
-            background: #EE4345;
-        }
-
-        .portfolio-item-3 {
-            background: #4463E8;
-        }
-
-        .portfolio-item-4 {
-            background: #1EB786;
-        }
-
-        .portfolio-item-5 {
-            background: #F9B12B;
-        }
-
-        .portfolio-item-6 {
-            background: #EE4345;
-        }
-
-        .portfolio-item-7 {
-            background: #EE4345;
-            margin-bottom: $portfolio-height-margin;
-        }
-
-        .portfolio-item-8 {
-            background: #EE4345;
-        }
-
-        .portfolio-item-9 {
-            background: #EE4345;
-        }
-
-        .portfolio-item-10 {
-            background: #EE4345;
-        }
-
-        .portfolio-item-11 {
-            background: #EE4345;
-        }
-
-
-
         @include breakpoint(sm) {
             .portfolio-item-8-4,
             .portfolio-item-4-4,
-            .portfolio-item-4-8 {
+            .portfolio-item-6-4 {
                 height: $portfolio-height-unit;
                 margin-bottom: $portfolio-height-margin;
             }
