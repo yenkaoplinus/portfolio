@@ -27,6 +27,7 @@ gulp.task('browserSync', function() {
  */
 gulp.task('watch', function() {
     gulp.watch('app/scss/**/*.scss', ['sass']);
+    gulp.watch('app/images/**/*.*', ['images']);
     gulp.watch('app/*.html', browserSync.reload);
     gulp.watch('app/js/**/*.js', browserSync.reload);
 });
@@ -89,7 +90,7 @@ gulp.task('clean:dist', function() {
  * Building
  */
 gulp.task('default', function(callback) {
-    runSequence(['sass', 'browserSync'], 'watch',
+    runSequence(['sass', 'images', 'browserSync'], 'watch',
         callback
     )
 });
