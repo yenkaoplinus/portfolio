@@ -3147,14 +3147,14 @@ img {
   position: relative;
   margin-bottom: 80px; }
   .frontpage .about figure h2 {
-    color: #b3dacc;
+    color: #3c3c3b;
     font-size: 100px;
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
     position: absolute;
-    bottom: -60px;
-    right: 50px; }
+    bottom: -58px;
+    right: 20px; }
 
 .frontpage .about .item {
   margin-bottom: 20px; }
@@ -3244,28 +3244,28 @@ img {
         font-size: 60px;
         top: -110px; } }
   .frontpage .contact textarea {
-    border: none;
+    border: 3px solid #3c3c3b;
     background: none;
     display: block;
     width: 100%;
     height: 300px;
     margin-bottom: 10px;
     font-family: "Montserrat", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.8;
     outline: none; }
   .frontpage .contact input[type="email"] {
-    display: block;
+    border: 3px solid #3c3c3b;
     background: none;
-    border: none;
+    display: block;
     width: 100%;
-    outline: none;
+    margin-bottom: 20px;
     padding: 6px 0;
-    margin-bottom: 20px; }
+    outline: none; }
   .frontpage .contact input[type="submit"] {
     display: inline-block;
     background: none;
-    border: 4px solid #3c3c3b;
+    border: 3px solid #3c3c3b;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: bold;
