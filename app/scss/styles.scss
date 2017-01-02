@@ -43,6 +43,9 @@
 /**
  * Import frontpage elements
  */
-@import "frontpage/about";
-@import "frontpage/portfolio";
-@import "frontpage/contact";
+@import "frontpage/frontpage";
+
+/**
+ * Import portfolio
+ */
+@import "portfolio/portfolio";
