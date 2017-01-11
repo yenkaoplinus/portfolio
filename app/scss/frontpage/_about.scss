@@ -14,26 +14,15 @@
                 position: absolute;
                 bottom: -58px;
                 right: 20px;
-            }
-        }
 
-        .item {
-            margin-bottom: 20px;
-
-            .key {
-                color: $color-primary;
-                text-transform: uppercase;
-                font-weight: bold;
+                @include breakpoint(sm) {
+                  font-size: 60px;
+                  bottom: -40px;
+                }
             }
 
-            .value {
-
-            }
-
-            a {
-              color: $color-dark;
-              border-bottom: 2px solid $color-primary;
-              text-decoration: none;
+            @include breakpoint(sm) {
+              margin-bottom: 40px;
             }
         }
     }

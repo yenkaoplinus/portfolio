@@ -7,11 +7,13 @@
   <title>Creares - Yenka Oplinus</title>
 
   <link rel="stylesheet" href="../css/styles.css">
+  <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.0/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
 </head>
 
-<body class="portfolio-item portfolio-creares">
+<body class="portfolio-page portfolio-creares">
   <nav class="mainnav">
     <div class="container">
       <div class="row">
@@ -29,26 +31,26 @@
     </div>
   </nav>
 
-  <section class="portfolio" id="portfolio">
+  <section class="about" id="about">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 col-md-offset-4">
+        <div class="col-md-8 col-md-offset-4 info">
           <div class="row item">
             <h2 class="col-md-10">Creares</h2>
           </div>
           <div class="row item">
-            <div class="col-md-2 key">Opdrachtgever</div>
+            <div class="col-md-2 key">Klant</div>
             <div class="col-md-10 value">Arteveldehogeschool</div>
           </div>
           <div class="row item">
-            <div class="col-md-2 key">Briefing</div>
+            <div class="col-md-2 key">Opdracht</div>
             <div class="col-md-10 value">CreaRes is een samenstelling van ‘Create’ en ‘Research’.
               Bij deze opdracht werk je een volledig jaar zelfstandig maar met de hulp van een mentor aan een eigen gekozen creatief onderwerp.
               Iets wat je graag wil leren of in wat je je graag wil verdiepen.</div>
           </div>
           <div class="row item">
             <div class="col-md-2 key">Tags</div>
-            <div class="col-md-10 value">FOTOGRAFIE - ANALOOG - PORTRET - ZWART-WIT</div>
+            <div class="col-md-10 value">fotografie - analoog - portret - zwart/wit</div>
           </div>
           <div class="col-md-4">
             <div class="">
@@ -59,9 +61,68 @@
     </div>
   </section>
 
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-4">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="portfolio-item portfolio-item-8-4 portfolio-item-1">
+                <!-- Hover effect -->
+                <a href="#" data-featherlight="../images/creares-item-2.png" class="portfolio-hover">
+                  <h3><strong>Vergroot</strong></h3>
+                </a>
+                <!-- end hover effect -->
+
+                <!-- Backrground image -->
+                <div class="portfolio-background" style="background-image: url(../images/creares-small-1.png)"></div>
+                <!-- end background image -->
+              </div>
+
+              <div class="portfolio-item portfolio-item-8-4 portfolio-item-1">
+                <!-- Hover effect -->
+                <a href="#" data-featherlight="../images/creares-item-1.png" class="portfolio-hover">
+                  <h3><strong>Vergroot</strong></h3>
+                </a>
+                <!-- end hover effect -->
+
+                <!-- Backrground image -->
+                <div class="portfolio-background" style="background-image: url(../images/creares-small-2.png)"></div>
+                <!-- end background image -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="outer-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-4">
+            <h2>Contact</h2>
+
+            <div class="contactform">
+              <form action="https://formspree.io/yenkaoplinus@hotmail.com" method="POST">
+                <input type="hidden" name="_subject" value="Goed nieuws, er wil iemand samenwerken!" />
+                <input type="text" name="_gotcha" style="display:none" />
+                <textarea name="content" placeholder="Hallo Yenka, laten we samenwerken!"></textarea>
+                <input type="email" name="_replyto" placeholder="Wat is jouw e-mailadres?"/>
+                <input type="submit" name="submit" value="Verzenden"/>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!--build:js js/main.min.js -->
   <script src="../js/lib/jquery-3.1.1.min.js"></script>
   <script src="../js/lib/bootstrap.js"></script>
+  <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
   <script src="../js/main.js"></script>
   <!-- endbuild -->
 </body>
