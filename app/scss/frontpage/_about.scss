@@ -29,6 +29,12 @@
             .value {
 
             }
+
+            a {
+              color: $color-dark;
+              border-bottom: 2px solid $color-primary;
+              text-decoration: none;
+            }
         }
     }
 }

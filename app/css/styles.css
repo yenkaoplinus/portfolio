@@ -3162,6 +3162,10 @@ img {
     color: #b3dacc;
     text-transform: uppercase;
     font-weight: bold; }
+  .frontpage .about .item a {
+    color: #3c3c3b;
+    border-bottom: 2px solid #b3dacc;
+    text-decoration: none; }
 
 .frontpage .portfolio .portfolio-item {
   background: #b3dacc;
