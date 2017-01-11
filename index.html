@@ -1,95 +1,273 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Yenka Oplinus</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Yenka Oplinus</title>
 
-    <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>Hallo, ik ben Yenka</h1>
-                </div>
-            </div>
+<body class="frontpage">
+  <header>
+    <h1>Yenka - Creative Designer</h1>
+  </header>
+
+  <nav class="mainnav">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="logo"></div>
         </div>
-    </header>
-
-    <nav class="mainnav">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-3 col-xs-3">
-                    <div class="logo"></div>
-                </div>
-                <div class="col-md-9 col-sm-9 col-xs-9">
-                    <ul>
-                        <li>
-                            <a href="#">Yenka Oplinus</a>
-                        </li>
-                        <li class="current">
-                            <a href="#">Graphic design</a>
-                        </li>
-                        <li>
-                            <a href="#">Fotografie</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <div class="col-md-9 col-sm-9 col-xs-9">
+          <ul>
+            <li>
+              <a href="#about" data-element="about">Yenka Oplinus</a>
+            </li>
+            <li>
+              <a href="#portfolio" data-element="portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" data-element="contact">Contact</a>
+            </li>
+          </ul>
         </div>
-    </nav>
+      </div>
+    </div>
+  </nav>
 
-    <section class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="portfolio-item portfolio-item-8-4 portfolio-item-1">
-
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item portfolio-item-4-4 portfolio-item-2">
-
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="portfolio-item portfolio-item-4-4 portfolio-item-3">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio-item portfolio-item-4-8 portfolio-item-4">
-
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="portfolio-item portfolio-item-8-4 portfolio-item-5">
-
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="portfolio-item portfolio-item-4-4 portfolio-item-6">
-
-                    </div>
-                </div>
-            </div>
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-4 info">
+          <figure>
+            <img src="images/yenka.png" alt="Yenka">
+            <h2>Hallo</h2>
+          </figure>
+          <div class="row item">
+            <div class="col-md-2 key">Wie</div>
+            <div class="col-md-10 value">Ik ben Yenka Oplinus, 21 jarige studente aan de Arteveldehogeschool. Momenteel zit ik in mijn laatste bachelorjaar met als afstudeerrichting Graphic Design. In 2009 ben ik in de grafische wereld beland.</div>
+          </div>
+          <div class="row item">
+            <div class="col-md-2 key">Wat</div>
+            <div class="col-md-10 value">branding - fotografie - typografie - webdesign - drukwerk</div>
+          </div>
+          <div class="row item">
+            <div class="col-md-2 key">E-mail</div>
+            <div class="col-md-10 value"><a href="mailto:yenkaoplinus@hotmail.com">yenkaoplinus@hotmail.com</a></div>
+          </div>
+          <div class="row item">
+            <div class="col-md-2 key">Social</div>
+            <div class="col-md-10 value"><a href="https://www.instagram.com/oplinusyenka/">Instagram</a> - <a href="https://www.facebook.com/Yenka">Facebook</a></div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <script src="js/main.min.js"></script>
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="portfolio-item portfolio-item-8-4 portfolio-item-1">
+            <!-- Hover effect -->
+            <a href="/creares" class="portfolio-hover">
+              <h3><span>Fotografie</span>CreaRes</h3>
+            </a>
+            <!-- end hover effect -->
+
+            <!-- Backrground image -->
+            <div class="portfolio-background" style="background-image: url(../images/portfolio-item-1.png)"></div>
+            <!-- end background image -->
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="portfolio-item portfolio-item-4-4 portfolio-item-2">
+            <!-- Hover effect -->
+            <a href="/creares" class="portfolio-hover">
+              <h3><span>Website</span>Maastricht</h3>
+            </a>
+            <!-- end hover effect -->
+
+            <!-- Backrground image -->
+            <div class="portfolio-background" style="background-image: url(../images/portfolio-item-2.png)"></div>
+            <!-- end background image -->
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="portfolio-item portfolio-item-6-4 portfolio-item-3">
+            <!-- Hover effect -->
+            <a href="/creares" class="portfolio-hover">
+              <h3><span>Huisstijl</span>Bachelorproef</h3>
+            </a>
+            <!-- end hover effect -->
+
+            <!-- Backrground image -->
+            <div class="portfolio-background" style="background-image: url(../images/portfolio-item-3.png)"></div>
+            <!-- end background image -->
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="portfolio-item portfolio-item-6-4 portfolio-item-8">
+            <!-- Hover effect -->
+            <a href="/creares" class="portfolio-hover">
+              <h3><span>Fotografie</span>Anna &amp; kato</h3>
+            </a>
+            <!-- end hover effect -->
+
+            <!-- Backrground image -->
+            <div class="portfolio-background" style="background-image: url(../images/portfolio-item-8.png)"></div>
+            <!-- end background image -->
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="portfolio-item portfolio-item-4-4 portfolio-item-5">
+            <!-- Hover effect -->
+            <a href="/creares" class="portfolio-hover">
+              <h3><span>Fotografie</span>In de mijn</h3>
+            </a>
+            <!-- end hover effect -->
+
+            <!-- Backrground image -->
+            <div class="portfolio-background" style="background-image: url(../images/portfolio-item-5.png)"></div>
+            <!-- end background image -->
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="portfolio-item portfolio-item-8-4 portfolio-item-6">
+            <!-- Hover effect -->
+            <a href="/creares" class="portfolio-hover">
+              <h3><span>Infografiek</span>Luchthaven YYZ</h3>
+            </a>
+            <!-- end hover effect -->
+
+            <!-- Backrground image -->
+            <div class="portfolio-background" style="background-image: url(../images/portfolio-item-6.png)"></div>
+            <!-- end background image -->
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8">
+          <div class="portfolio-item portfolio-item-8-4 portfolio-item-9">
+            <!-- Hover effect -->
+            <a href="/creares" class="portfolio-hover">
+              <h3><span>Fotografie</span>Joran</h3>
+            </a>
+            <!-- end hover effect -->
+
+            <!-- Backrground image -->
+            <div class="portfolio-background" style="background-image: url(../images/portfolio-item-9.png)"></div>
+            <!-- end background image -->
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="portfolio-item portfolio-item-4-4 portfolio-item-10">
+            <!-- Hover effect -->
+            <a href="/creares" class="portfolio-hover">
+              <h3><span>Logo</span>Foodtruck</h3>
+            </a>
+            <!-- end hover effect -->
+
+            <!-- Backrground image -->
+            <div class="portfolio-background" style="background-image: url(../images/portfolio-item-10.png)"></div>
+            <!-- end background image -->
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="portfolio-item portfolio-item-6-4 portfolio-item-11">
+            <!-- Hover effect -->
+            <a href="/creares" class="portfolio-hover">
+              <h3><span>Huisstijl</span>Bourgoyen Gent</h3>
+            </a>
+            <!-- end hover effect -->
+
+            <!-- Backrground image -->
+            <div class="portfolio-background" style="background-image: url(../images/portfolio-item-11.png)"></div>
+            <!-- end background image -->
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="portfolio-item portfolio-item-6-4 portfolio-item-12">
+            <!-- Hover effect -->
+            <a href="/creares" class="portfolio-hover">
+              <h3><span>Logo</span>Alpha Construction</h3>
+            </a>
+            <!-- end hover effect -->
+
+            <!-- Backrground image -->
+            <div class="portfolio-background" style="background-image: url(../images/portfolio-item-12.png)"></div>
+            <!-- end background image -->
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="portfolio-item portfolio-item-4-4 portfolio-item-13">
+            <!-- Hover effect -->
+            <a href="/creares" class="portfolio-hover">
+              <h3><span>Logo</span>Vom Fass</h3>
+            </a>
+            <!-- end hover effect -->
+
+            <!-- Backrground image -->
+            <div class="portfolio-background" style="background-image: url(../images/portfolio-item-13.png)"></div>
+            <!-- end background image -->
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="portfolio-item portfolio-item-8-4 portfolio-item-14">
+            <!-- Hover effect -->
+            <a href="/creares" class="portfolio-hover">
+              <h3><span>Fotografie</span>Eindwerk kisp</h3>
+            </a>
+            <!-- end hover effect -->
+
+            <!-- Backrground image -->
+            <div class="portfolio-background" style="background-image: url(../images/portfolio-item-14.png)"></div>
+            <!-- end background image -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="outer-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-4">
+            <h2>Contact</h2>
+
+            <div class="contactform">
+              <form action="https://formspree.io/yenkaoplinus@hotmail.com" method="POST">
+                <input type="hidden" name="_subject" value="Goed nieuws, er wil iemand samenwerken!" />
+                <input type="text" name="_gotcha" style="display:none" />
+                <textarea name="content" placeholder="Hallo Yenka, laten we samenwerken!"></textarea>
+                <input type="email" name="_replyto" placeholder="Wat is jouw e-mailadres?"/>
+                <input type="submit" name="submit" value="Verzenden"/>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="js/main.min.js"></script>
 </body>
 </html>
