@@ -28,8 +28,18 @@ gulp.task('browserSync', function() {
 gulp.task('watch', function() {
     gulp.watch('app/scss/**/*.scss', ['sass']);
     gulp.watch('app/images/**/*.*', ['images']);
-    gulp.watch('app/*.html', browserSync.reload);
+    gulp.watch('app/**/*.html', browserSync.reload);
     gulp.watch('app/js/**/*.js', browserSync.reload);
+});
+
+/**
+ * Copy html files
+ */
+gulp.task('html', function() {
+  return gulp.src([
+    'app/**/*.html',
+  ])
+  .pipe(gulp.dest('dist'));
 });
 
 /**
@@ -48,7 +58,7 @@ gulp.task('sass', function(){
  * Combine and uglify .js files
  */
 gulp.task('useref', function(){
-    return gulp.src('app/*.html')
+    return gulp.src('app/**/*.js')
         .pipe(useref())
         .pipe(gulpIf('*.js', uglify()))
         .pipe(gulp.dest('dist'))
@@ -90,7 +100,7 @@ gulp.task('clean:dist', function() {
  * Building
  */
 gulp.task('default', function(callback) {
-    runSequence(['sass', 'images', 'browserSync'], 'watch',
+    runSequence(['build', 'sass', 'images', 'browserSync'], 'watch',
         callback
     )
 });
@@ -103,6 +113,7 @@ gulp.task('css', function() {
 gulp.task('build', function(callback) {
     runSequence(
         'clean:dist',
+        'html',
         'sass',
         ['css', 'useref', 'images', 'fonts'],
         callback
